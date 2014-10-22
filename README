@@ -1,3 +1,16 @@
+INSTRUCTIONS
+============
+
+The program asks for input file on executing.
+To compile
+g++ <filename.cpp> -o <exename.out>
+
+It also writes outputs to standard output stream (cout)
+Please use redirection to save output to file.
+
+
+ENCRYPTION
+==========
 This source file is encrypted because Yodle uses this challenge.
 
 Command to encrypt:
@@ -5,3 +18,5 @@ openssl des3 -in file.cpp -out file.cpp.des3
 
 Command to decrypt:
 openssl des3 -d -in file.cpp.des3 -out file.cpp.decrypt
+
+Please contact me by email if you want access.
